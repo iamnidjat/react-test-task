@@ -1,0 +1,55 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 50px;
+}
+
+.button {
+    padding: 10px 250px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.noImage {
+    font-size: 1rem;
+    color: #999;
+}

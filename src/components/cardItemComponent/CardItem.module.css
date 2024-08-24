@@ -1,0 +1,54 @@
+.card {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    margin: 5px;
+}
+
+
+.card p {
+    width: 150px;
+    height: 70px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    margin: 5px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.likeButton {   
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin: 5px;
+    width: 75px;
+}
+  
+.deleteButton {
+    background-color: #ff4d4d;
+    padding: 5px;
+    margin: 5px;
+    width: 75px;
+}
+  
